@@ -32,12 +32,12 @@ html {
 }
 
 
-.title-text {
+.logo-text {
     font-size: 1.3rem;
 }
 
 
-.sidebar .title,
+.sidebar .logo,
 .sidebar .nav {
     margin-bottom: 25px;
 }
@@ -91,7 +91,8 @@ html {
     background-color: var(--color-white);
     border-radius: 5px;
     padding: 20px 15px;
-    box-shadow: 1px 2px 2px 1px #0000001a;}
+    box-shadow: 1px 2px 2px 1px #0000001a;
+}
 
 .project-description,
 .announcement-description,
@@ -114,4 +115,25 @@ html {
 .announcement-break {
     border: 0.1px solid #96969680;
     margin-bottom: 15px;
+}
+
+.nav-link {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-link img {
+    width: 1.2rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+    width: max-content;
 }
