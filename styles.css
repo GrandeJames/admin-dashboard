@@ -31,13 +31,19 @@ html {
     padding: 15px;
 }
 
-.nav ul {
-    list-style-type: none;
+
+.title-text {
+    font-size: 1.3rem;
 }
+
 
 .sidebar .title,
 .sidebar .nav {
     margin-bottom: 25px;
+}
+
+.nav ul {
+    list-style-type: none;
 }
 
 .main {
@@ -47,6 +53,10 @@ html {
 
     background-color: var(--color-gray-background);
     padding: 15px 15px 30px 10px;
+}
+
+h2 {
+    font-size: 1rem;
 }
 
 .projects-section {
@@ -60,9 +70,6 @@ html {
 }
 
 .project-card {
-    background-color: var(--color-white);
-    border-radius: 5px;
-    padding: 15px;
     border-left: 5px solid var(--color-orange);
 }
 
@@ -74,4 +81,12 @@ html {
 .project-description {
     color: var(--color-gray-text);
     font-size: 0.85rem;
+}
+
+.announcement-card,
+.project-card,
+.trending-card {
+    background-color: var(--color-white);
+    border-radius: 5px;
+    padding: 15px;
 }
