@@ -98,3 +98,12 @@ html {
 .project-name {
     color: var(--color-gray-text);
 }
+
+.announcement {
+    margin-bottom: 15px;
+}
+
+hr {
+    border: 0.1px solid #96969680;
+    margin-bottom: 15px;
+}
