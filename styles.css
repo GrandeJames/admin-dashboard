@@ -103,6 +103,14 @@ html {
     margin-bottom: 15px;
 }
 
+.announcement-heading {
+    font-size: 0.9rem;
+}
+
+.announcement-description {
+    font-size: 0.8rem;
+}
+
 hr {
     border: 0.1px solid #96969680;
     margin-bottom: 15px;
