@@ -50,10 +50,11 @@ html {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 15px;
 
     background-color: var(--color-gray-background);
     color: var(--color-black);
-    padding: 15px 15px 30px 10px;
+    padding: 20px 20px 0 15px;
 }
 
 h2 {
@@ -67,7 +68,7 @@ h2 {
 .project-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
+    gap: 20px;
 }
 
 .project-card {
@@ -88,8 +89,8 @@ h2 {
 .trending-card {
     background-color: var(--color-white);
     border-radius: 5px;
-    padding: 15px;
-}
+    padding: 20px 15px;
+    box-shadow: 1px 2px 2px 1px #0000001a;}
 
 .project-description,
 .announcement-description,
