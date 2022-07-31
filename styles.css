@@ -67,12 +67,13 @@ h2 {
 
 .project-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
     gap: 20px;
 }
 
 .project-card {
     border-left: 5px solid var(--color-orange);
+    height: 125px;
 }
 
 .project-heading {
