@@ -39,17 +39,16 @@ html {
     gap: 15px;
 }
 
+.logo, .sidebar .nav {
+    margin-bottom: 50px;
+}
+
 .logo-icon {
     width: 2.5rem;
 }
 
 .logo-text {
     font-size: 1.5rem;
-}
-
-.sidebar .logo,
-.sidebar .nav {
-    margin-bottom: 25px;
 }
 
 .nav ul {
@@ -137,6 +136,7 @@ html {
 
 .nav-link {
     font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
 a {
