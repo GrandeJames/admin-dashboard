@@ -14,6 +14,15 @@ html {
     --color-black: #010001;
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: Roboto;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
