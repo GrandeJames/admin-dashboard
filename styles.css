@@ -46,11 +46,15 @@ body {
     grid-column: 1 / 2;
 }
 
-.search-button {
+.search-button, .alert-button {
     width: 20px;
     height: 20px;
     border: none;
     background-color: transparent;
+    cursor: pointer;
+}
+
+.search-button {
     background-image: url(./images/magnify.svg);
 }
 
@@ -69,9 +73,16 @@ body {
     border-radius: 20px;
     border: none;
     padding: 5px;
+    margin: 5px;
     width: 70px;
     background-color: var(--color-blue);
     color: var(--color-white);
+}
+
+
+
+.alert-button {
+    background-image: url(./images/bell-ring-outline.svg);
 }
 
 .sidebar {
