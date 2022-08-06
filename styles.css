@@ -40,8 +40,7 @@ body {
 
 .search {
     display: flex;
-
-    width: 100%;
+    align-items: center;
 
     grid-column: 1 / 2;
 }
@@ -64,6 +63,7 @@ body {
     border-radius: 20px;
     left: 10px;
     padding: 0 10px;
+    height: 20px;
 
     position: relative;
     flex: 1;
@@ -79,10 +79,31 @@ body {
     color: var(--color-white);
 }
 
+.misc {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
 
+.misc > *, .user-info > * {
+    margin: 0 10px;
+}
 
 .alert-button {
     background-image: url(./images/bell-ring-outline.svg);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile-pic {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--color-orange);
 }
 
 .sidebar {
