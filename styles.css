@@ -164,7 +164,7 @@ body {
 }
 
 .project-card {
-    border-left: 5px solid var(--color-orange);
+    border-left: 7px solid var(--color-orange);
     height: 140px;
 
     display: flex;
@@ -184,7 +184,7 @@ body {
 .project-card,
 .trending-card {
     background-color: var(--color-white);
-    border-radius: 5px;
+    border-radius: 7px;
     padding: 20px 15px;
     box-shadow: 1px 2px 2px 1px #0000001a;
 }
