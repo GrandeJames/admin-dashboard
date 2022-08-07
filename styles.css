@@ -99,10 +99,38 @@ body {
 
 .user-profile-pic {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    flex: 0 0 auto;
     border-radius: 50%;
     background-color: var(--color-orange);
+
+    width: 30px;
+    height: 30px;
+}
+
+.greeting {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.greeting-user-profile-pic {
+    width: 60px;
+    height: 60px;
+}
+
+.greeting-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 900;
+}
+
+.greeting-before {
+    font-size: 0.75rem;
+}
+
+.greeting-after {
+    font-size: 1.3rem;
 }
 
 .sidebar {
