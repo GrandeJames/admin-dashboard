@@ -69,12 +69,17 @@ body {
     flex: 1;
 }
 
+.options {
+    display: flex;
+    align-items: center;
+}
+
 .options button {
     border-radius: 20px;
     border: none;
-    padding: 5px;
-    margin: 5px;
-    width: 70px;
+    margin: 10px;
+    height: 35px;
+    width: 75px;
     background-color: var(--color-blue);
     color: var(--color-white);
 }
