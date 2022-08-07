@@ -50,7 +50,6 @@ body {
     height: 20px;
     border: none;
     background-color: transparent;
-    cursor: pointer;
 }
 
 .search-button {
@@ -167,6 +166,10 @@ body {
 .project-card {
     border-left: 5px solid var(--color-orange);
     height: 125px;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .project-heading {
@@ -190,6 +193,20 @@ body {
 .announcement-description,
 .project-name {
     color: var(--color-gray-text);
+}
+
+.project-card-options {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+
+.project-card-option {
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    margin: 0 10px;
 }
 
 .announcement {
@@ -226,4 +243,8 @@ body {
     text-decoration: none;
     color: var(--color-white);
     width: max-content;
+}
+
+button {
+    cursor: pointer;
 }
